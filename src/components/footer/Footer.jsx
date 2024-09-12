@@ -7,6 +7,9 @@ import { AiOutlineYoutube } from 'react-icons/ai'
 import { AiOutlineSkype } from 'react-icons/ai'
 import { RiDiscordLine } from 'react-icons/ri'
 import { ImBlogger2 } from 'react-icons/im'
+import { AiOutlineMail } from 'react-icons/ai';
+import { BsTwitter } from 'react-icons/bs';
+import { FaGithub } from 'react-icons/fa'
 /**
  * Thêm link tại footer dòng 26
  * <li><a href="#testimonials">Testimonials</a></li>
@@ -28,16 +31,21 @@ const Footer = () => {
             </ul>
 
             <div className="footer__socials">
-                <a href="https://www.facebook.com/vunguyen260803.trying/"><FaFacebookF /></a>
-                <a href="https://www.youtube.com/channel/UC-UdQaOLqi0B9pL7TB3qiCQ"><AiOutlineYoutube /></a >
-                <a href="https://www.linkedin.com/in/nguyenvu2608/"><FaLinkedinIn /></a>
-                <a href="https://github.com/nguyenvu1310"><FaGithubAlt /></a>
-                <a href="http://nguyenvu1310.github.io/"><ImBlogger2 /></a >
-                <a href="https://discord.gg/JCRHvtD7"><RiDiscordLine /></a >
+                <a href="https://www.facebook.com/"><FaFacebookF /></a>
+                <a href="https://www.youtube.com/channel/UCSOeTCIfWX2wLVpXae-JDbw/"><AiOutlineYoutube /></a >
+                {/* <a href="https://www.linkedin.com/in/nguyenvu2608/"><FaLinkedinIn /></a> */}
+                
+                <a href="https://github.com/stacodinghackwizard/" target="_blank"><FaGithub /></a>
+                <a href="https://x.com/stacodinghack/" target="_blank"><BsTwitter /></a> 
+                <a href="mailto:sulaimontaofeek76@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <AiOutlineMail/>
+                </a>
+                {/* <a href="http://nguyenvu1310.github.io/"><ImBlogger2 /></a > */}
+                {/* <a href="https://discord.gg/JCRHvtD7"><RiDiscordLine /></a > */}
             </div >
 
             <div className="footer__copyright">
-                <small>&copy; <b><a href="https://www.linkedin.com/in/nguyenvu2608/">nguyenvu</a></b>. All rights reserved.</small>
+                <small>&copy; <b><a href="mailto:sulaimontaofeek76@gmail.com">sulaimontaofeek76</a></b>. All rights reserved.</small>
             </div>
         </footer >
     )
