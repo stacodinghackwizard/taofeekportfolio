@@ -17,6 +17,10 @@ const Services = () => {
                     <ul className='service__list'>
                         <li>
                             <BsCheckLg className='service__list-icon' />
+                            <p>Web Security</p>
+                        </li>
+                        <li>
+                            <BsCheckLg className='service__list-icon' />
                             <p>Computer Networking</p>
                         </li>
                         <li>
@@ -27,22 +31,19 @@ const Services = () => {
                             <BsCheckLg className='service__list-icon' />
                             <p>Risk Management in Information Systems</p>
                         </li>
-                        <li>
-                            <BsCheckLg className='service__list-icon' />
-                            <p>Web Security</p>
-                        </li>
-                        <li>
+                        
+                        {/* <li>
                             <BsCheckLg className='service__list-icon' />
                             <p>Network Forensics</p>
-                        </li>
+                        </li> */}
                         <li>
                             <BsCheckLg className='service__list-icon' />
                             <p>Ethical Hacking and Offensive Security</p>
                         </li>
-                        <li>
+                        {/* <li>
                             <BsCheckLg className='service__list-icon' />
                             <p>Incident Response</p>
-                        </li>
+                        </li> */}
                     </ul>
                 </article>
                 {/* End of ui/ux */}
@@ -55,28 +56,31 @@ const Services = () => {
                     <ul className='service__list'>
                         <li>
                             <BsCheckLg className='service__list-icon' />
-                            <p><b>Pre Security </b>Course Certificate on TryHackMe</p>
+                            <p><b>Web Security </b>Course on Portswigger</p>
                         </li>
                         <li>
                             <BsCheckLg className='service__list-icon' />
-                            <p><b>Networking Essentials</b> Course Certificate on Cisco</p>
+                            <p><b>Web Security </b>Course on TryHackMe</p>
                         </li>
                         <li>
                             <BsCheckLg className='service__list-icon' />
-                            <p><b>Web Design for Everybody</b> Course Certificate on Coursera</p>
+                            <p><b>API Security </b>Course Certificate on APISEC Academy</p>
                         </li>
                         <li>
                             <BsCheckLg className='service__list-icon' />
-                            <p><b>Python for Everybody</b> Course Certificate on Coursera</p>
+                            <p><b>Pre Security </b>Course on TryHackMe</p>
                         </li>
                         <li>
                             <BsCheckLg className='service__list-icon' />
-                            <p><b>Ethical Hacking for Beginners</b> Course Certificate on SimpliLearn</p>
+                            <p><b>Networking Essentials</b> Course  on Cisco</p>
                         </li>
                         <li>
                             <BsCheckLg className='service__list-icon' />
-                            <p><b>Cybersecurity Foundations</b> Course Certificate on Linkedln</p>
+                            <p><b>Web Design for Everybody</b> Course on Coursera</p>
                         </li>
+                        
+                        
+                        
                     </ul>
                 </article>
                 {/* End of ui/ux */}
@@ -89,7 +93,7 @@ const Services = () => {
                     <ul className='service__list'>
                         <li>
                             <BsCheckLg className='service__list-icon' />
-                            <p>Windows 7, 8 and 10</p>
+                            <p>Windows 7, 8, 10 and 11</p>
                         </li>
                         <li>
                             <BsCheckLg className='service__list-icon' />
@@ -101,12 +105,9 @@ const Services = () => {
                         </li>
                         <li>
                             <BsCheckLg className='service__list-icon' />
-                            <p>Ubuntu</p>
+                            <p>Virtual Box</p>
                         </li>
-                        <li>
-                            <BsCheckLg className='service__list-icon' />
-                            <p>BackTrack</p>
-                        </li>
+                        
                     </ul>
                 </article>
                 {/* End of ui/ux */}

@@ -1,8 +1,8 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
+import IMG1 from '../../assets/ralioartPortfolio.png'
 import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
+import IMG3 from '../../assets/subssumPortfolioImg.png'
 import IMG4 from '../../assets/portfolio4.jpg'
 
 //Do not use the images in production
@@ -11,8 +11,8 @@ const data = [
         id: 1,
         image: IMG1,
         title: 'Personal Blog Website uses Jekyll (is a static site generator) and is hosted on Github.',
-        github: 'https://github.com/NguyenVu1310/NguyenVu1310.github.io',
-        demo: 'https://nguyenvu1310.github.io/',
+        github: 'https://github.com/stacodinghackwizard/ralioarts',
+        demo: 'https://ralioarts.vercel.app/',
     },
     {
         id: 2,
@@ -25,16 +25,17 @@ const data = [
         id: 3,
         image: IMG3,
         title: 'A Todo-List application simple developed based on React and deployed on Netlify.',
-        github: 'https://github.com/NguyenVu1310/todoList-react',
-        demo: 'https://nguyenvu-todo-list.netlify.app/',
+        github: 'https://github.com/stacodinghackwizard/subssum',
+        demo: 'https://subssum-beta.vercel.app/dashboard',
     },
     {
         id: 4,
         image: IMG4,
-        title: 'A graduation project was done by my team. A website scans malicious content in URLs and blocks sites on blacklists.',
-        github: 'https://github.com/NguyenVu1310/threeblock',
-        demo: 'https://3block.systems/',
+        title: 'A Todo-List application simple developed based on React and deployed on Netlify.',
+        github: 'https://github.com/stacodinghackwizard/sta-quiz',
+        demo: 'https://sta-quiz.vercel.app/',
     },
+    
 ]
 
 
