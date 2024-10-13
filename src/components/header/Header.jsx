@@ -4,13 +4,13 @@ import CTA from './CTA'
 import ME from '../../assets/STA.png'
 import HeaderSocials from './HeaderSocials'
 
-const header = () => {
+const Header = () => {
     return (
         <header>
             <div className="container header__container">
                 <h5> Hello I'm</h5>
                 <h1>Sulaimon Taofeek</h1>
-                <h5 className="text-light">Cyber Security Engineer and Software Developer</h5>
+                <h5 className="text-light">Cyber Security Engineer, FullStack Developer, and DevOps Engineer</h5>
                 <CTA />
                 <HeaderSocials />
 
@@ -24,4 +24,4 @@ const header = () => {
     )
 }
 
-export default header
+export default Header
