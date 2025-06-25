@@ -33,7 +33,7 @@ const Footer = () => {
             <div className="footer__socials">
                 <a href="https://www.facebook.com/"><FaFacebookF /></a>
                 <a href="https://www.youtube.com/channel/UCSOeTCIfWX2wLVpXae-JDbw/"><AiOutlineYoutube /></a >
-                {/* <a href="https://www.linkedin.com/in/nguyenvu2608/"><FaLinkedinIn /></a> */}
+                <a href="https://www.linkedin.com/in/sulaimon-taofeek-b652a9371"><FaLinkedinIn /></a>
                 
                 <a href="https://github.com/stacodinghackwizard/" target="_blank"><FaGithub /></a>
                 <a href="https://x.com/stacodinghack/" target="_blank"><BsTwitter /></a> 
