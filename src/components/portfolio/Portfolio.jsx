@@ -4,7 +4,7 @@ import IMG0 from '../../assets/moniflowImg.png'
 import IMG1 from '../../assets/ralioartPortfolio.png'
 import IMG2 from '../../assets/staPortfolio.png'
 import IMG3 from '../../assets/subssumPortfolioImg.png'
-import IMG4 from '../../assets/quizPortfolio.png'
+import IMG4 from '../../assets/motoka.png'
 import IMG5 from '../../assets/ttaPortfolioImg.png'
 import IMG6 from '../../assets/foodkartgold.png'
 import IMG7 from '../../assets/temmiteePortfolio.png'
@@ -12,6 +12,7 @@ import IMG8 from '../../assets/smallecommerce.png'
 import IMG9 from '../../assets/firstecommerce.png'
 import IMG10 from '../../assets/ticketPass.png'
 import IMG11 from '../../assets/oldPortfolio.png'
+import VID01 from '../../assets/ticketPass.png'
 
 //Do not use the images in production
 const data = [
@@ -91,10 +92,13 @@ const data = [
     {
         id: 9,
         image: IMG4,
-        title: 'This Quiz Application allows users to test their knowledge with engaging quizzes. Built to provide a fun and educational experience, the app features various quizzes on different topics, interactive questions, and instant feedback.',
-        github: 'https://github.com/stacodinghackwizard/sta-quiz',
-        demo: 'https://sta-quiz.vercel.app/',
+        title: 'I contributed to the Motoka project as a full-stack developer and penetration tester. My work spanned both the frontend and backend, where I implemented features for user authentication, vehicle management, KYC verification, and payment integration. I also conducted penetration testing to identify and resolve security vulnerabilities, ensuring the platform’s robustness and data protection. My involvement covered the full development lifecycle, from building user interfaces to designing APIs and securing the application.',
+        github: 'https://github.com/stacodinghackwizard/',
+        demo: 'https://motoka.vercel.app/auth/login',
     },
+
+  
+
    
     // {
     //     id: 10,
@@ -119,12 +123,21 @@ const Portfolio = () => {
                         return (
                             <article key={id} className='portfolio__item'>
                                 <div className="portfolio__item-image">
-                                    <img src={image} alt={title} />
+                                    {id === 10 ? (
+                                        <a href={`/video?id=vid01`} target='_blank' rel='noopener noreferrer'>
+                                            <video width="320" height="240" controls>
+                                                <source src={image} type="video/mp4" />
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </a>
+                                    ) : (
+                                        <img src={image} alt={title} />
+                                    )}
                                 </div>
                                 <h3>{title}</h3>
                                 <div className="portfolio__item-cta">
                                     <a href={github} className='btn' target='_blank'>Github</a>
-                                    <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                                    <a href={`/video?id=vid01`} className='btn btn-primary' target='_blank'>Live Demo</a>
                                 </div>
                             </article>
                         )
